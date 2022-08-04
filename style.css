@@ -1,0 +1,67 @@
+/*fonty
+font-family: 'Gruppo', cursive;
+font-family: 'Monoton', cursive;*/
+
+html {
+    box-sizing: border-box;
+}
+
+
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(90, 64, 100);
+    color: rgb(209, 108, 14);
+    font-size: 20px;
+    text-align: center;
+}
+
+.diceeContainer {
+    display: flex;
+}
+
+.dice {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Gruppo', cursive;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    letter-spacing: 7px;
+    padding: 20px;
+}
+
+img {
+    justify-self: center;
+    width: 50%;
+}
+
+button {
+    background-color: rgb(236, 174, 242);
+    border: none;
+    border-radius: 15px;
+    border-color: rgb(65, 23, 69);
+    color: rgb(65, 23, 69);
+    font-family: 'Gruppo', cursive;
+    font-size: 3rem;
+    height: 60px;
+    width: 120px;
+}
+
+button:hover {
+    background-color: rgb(65, 23, 69);
+    color: rgb(236, 174, 242);
+    cursor: pointer;
+}
